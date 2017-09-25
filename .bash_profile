@@ -3,10 +3,7 @@ export LANG=en_US.UTF-8
 export KAFKA_HOME=~/kafka
 
 export DASHBOARD_TOKEN=1234
-export DASHBOARD_DEFAULT=bravo
 
-export PIVOTAL_TRACKER_TOKEN="14b2bb1e69d88214328087aa5c090cbf"
-export PIVOTAL_TRACKER_PROJECT_ID="977206"
 export GIT_PS1_SHOWDIRTYSTATE=1
 
 # auto chruby
@@ -25,8 +22,6 @@ alias osu="open -a Sublime\ Text\ 2"
 alias ctags="`brew --prefix`/bin/ctags"
 alias cd..="cd .."
 
-alias mysql_staging="mysql -hstagingdb.dc4 -udeveloper -pPhiXur3ogaichueb"
-
 ## git aliases
 alias g="git status"
 alias gl="git log --oneline"
@@ -42,9 +37,6 @@ source ~/.git-prompt.sh
 #git autocomplete
 source ~/git/git-completion.bash
 ulimit -n 8192
-
-#add android_tools to the path
-PATH=$PATH:/Users/boris.wainberg/Library/Android/sdk/platform-tools
 
 #add scala to the path
 PATH=$PATH:/Users/boris.wainberg/scala-2.11.5/bin
